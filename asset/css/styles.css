@@ -1875,7 +1875,7 @@ header .mobile-menu {
 .wg-counter.style-1 .odometer-inside .odometer-digit,
 .wg-counter.style-1 .odometer-inside .odometer-value,
 .odometer-formatting-mark {
-  font-size: 54px;
+  font-size: 48px;
   line-height: 62px;
   letter-spacing: -4%;
 }
@@ -2598,10 +2598,10 @@ header .mobile-menu {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 .left-sidebar .heading img {
-  max-width: 100px;
+  max-width: 240px;
 }
 .left-sidebar .image {
   display: flex;
@@ -2647,6 +2647,9 @@ header .mobile-menu {
   padding: 3px 3px 3px 23px;
   border: 1px solid rgba(255, 255, 255, 0.1490196078);
   border-radius: 99px;
+  width: 100%;
+  margin-bottom: 20px;
+  background-color: var(--primary);
 }
 .left-sidebar .bot-button .icon {
   display: flex;
@@ -2655,8 +2658,8 @@ header .mobile-menu {
   width: 48px;
   height: 48px;
   font-size: 18px;
-  color: #fff;
-  background-color: var(--primary);
+  color: var(--primary);
+  background-color: #fff;
   border-radius: 50%;
 }
 .left-sidebar .bot-button .icon,
@@ -2668,11 +2671,13 @@ header .mobile-menu {
   transition: all 0.3s ease;
 }
 .left-sidebar .bot-button:hover .icon{
-  color: var(--primary);
+  color: var(--secondary);
   background-color: #fff;
+  font-weight: bold;
 }
 .left-sidebar .bot-button:hover .text {
   color: #fff;
+  font-weight: bold;
 }
 
 .section-banner .heading {
@@ -2851,7 +2856,7 @@ header .mobile-menu {
 }
 
 .indicators .list-tags {
-  max-width: 363px;
+  max-width: 700px;
   margin-bottom: 64px;
 }
 .indicators .personality a {
@@ -3814,9 +3819,9 @@ header .mobile-menu {
   display: flex;
   align-items: center;
   gap: 12px;
-  background-color: #fff;
+  background-color: var(--primary);
   border-radius: 99px;
-  color: #000;
+  color: #fff;
   width: max-content;
 }
 .pricing-item .bot-btn a .icon {
@@ -3826,8 +3831,8 @@ header .mobile-menu {
   width: 48px;
   height: 48px;
   font-size: 18px;
-  color: #fff;
-  background: rgb(21, 21, 21);
+  color: var(--primary);
+  background: #fff;
   border-radius: 50%;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
@@ -3837,7 +3842,8 @@ header .mobile-menu {
 }
 .pricing-item .bot-btn:hover .icon{
   background-color: #fff;
-  color: var(--primary);
+  color: var(--secondary);
+  font-weight: bold;
 }
 .pricing-item .bot-btn:hover a {
   background-color: var(--primary);
@@ -4220,7 +4226,7 @@ header .mobile-menu {
     padding: 32px 24px;
   }
   .left-sidebar .heading {
-    margin-bottom: 32px;
+    margin-bottom: 16px;
     gap: 20px;
   }
   .left-sidebar .image {
@@ -4307,7 +4313,7 @@ header .mobile-menu {
     margin-right: auto;
   }
   .left-sidebar .heading {
-    margin-bottom: 24px;
+    margin-bottom: 16px;
   }
   .left-sidebar .infor {
     margin-bottom: 20px;
