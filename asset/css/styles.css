@@ -2655,8 +2655,8 @@ header .mobile-menu {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 48px;
-  height: 48px;
+  width: 40px;
+  height: 40px;
   font-size: 18px;
   color: var(--primary);
   background-color: #fff;
@@ -4244,8 +4244,12 @@ header .mobile-menu {
     padding: 32px 24px;
   }
   .left-sidebar .heading {
+    max-width: 140px;
     margin-bottom: 16px;
     gap: 20px;
+  }
+  .left-sidebar .heading img {
+    max-width: 180px;
   }
   .left-sidebar .image {
     margin-bottom: 25px;
