@@ -4205,6 +4205,24 @@ header .mobile-menu {
   border: 1px solid #4d4d4f;
 }
 
+
+.widget-content-tab .btn-group {
+  display: flex;
+  gap: 16px;
+}
+
+.widget-content-tab .btn-group .bot-btn:nth-child(2) a {
+  background-color: var(--secondary);
+}
+.widget-content-tab .btn-group .bot-btn:nth-child(2) a .icon {
+  color: var(--secondary);
+}
+.widget-content-tab .btn-group .bot-btn:nth-child(2) a:hover .icon {
+  color: var(--primary);
+}
+
+
+
 /*-------------- Responsive ----------------- */
 /* --- Screen Min Width --- */
 @media (min-width: 768px) {
